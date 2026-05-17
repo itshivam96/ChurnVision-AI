@@ -150,8 +150,8 @@ Ensure the following are installed on your machine:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/churnvision-ai.git
-   cd churnvision-ai
+   git clone https://github.com/itshivam96/ChurnVision-AI.git
+   cd ChurnVision-AI
    ```
 
 2. **Install frontend dependencies**
