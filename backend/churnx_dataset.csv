@@ -1,0 +1,6 @@
+customer_id,tenure_months,monthly_charges,support_tickets,last_login_days,churn
+CX_001,12,70,2,10,No
+CX_002,5,50,6,40,Yes
+CX_003,24,90,1,3,No
+CX_004,3,45,8,60,Yes
+CX_005,36,120,0,1,No

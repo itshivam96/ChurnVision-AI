@@ -1,0 +1,42 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="100%" stop-color="#7b61ff"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background circle -->
+  <circle cx="128" cy="128" r="120" fill="#050810" stroke="rgba(0,229,160,0.2)" stroke-width="2"/>
+
+  <!-- neural "C" -->
+  <path d="M170 80
+           C140 40, 70 60, 70 128
+           C70 196, 140 216, 170 176"
+        fill="none"
+        stroke="url(#grad)"
+        stroke-width="14"
+        stroke-linecap="round"
+        filter="url(#glow)"/>
+
+  <!-- X cross -->
+  <path d="M90 90 L166 166
+           M166 90 L90 166"
+        stroke="#00e5a0"
+        stroke-width="10"
+        stroke-linecap="round"
+        opacity="0.9"/>
+
+  <!-- center node -->
+  <circle cx="128" cy="128" r="6" fill="#7b61ff"/>
+
+</svg>
